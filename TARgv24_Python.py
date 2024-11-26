@@ -28,10 +28,20 @@ from math import * #pi kasutamiseks
 # kokku = kokku - kommi
 # print(f"Jääk on {kokku} kommi")
 
-#ülesanne 4
-print("Läbimõõdu leidmine ")
-#l-ümbermõõt
-l = float(input("Ümbermõõt: "))
-d = l/pi
-print(f"Lääbimõõdu suurus on {round(d,2)}")
-print('test')
+# #ülesanne 4
+# print("Läbimõõdu leidmine ")
+# #l-ümbermõõt
+# l = float(input("Ümbermõõt: "))
+# d = l/pi
+# print(f"Lääbimõõdu suurus on {round(d,2)}")
+# print('test')
+
+# #ülesanne 5
+# import math
+# N = float(input("Введите длину прямоуголника: "))
+# M = float(input("Введите ширину прямоуголника: "))
+# d = math.sqrt(N**2 + M**2)
+# print(d)
+
+
+
