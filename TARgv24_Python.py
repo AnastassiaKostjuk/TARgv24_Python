@@ -43,5 +43,48 @@ from math import * #pi kasutamiseks
 # d = math.sqrt(N**2 + M**2)
 # print(d)
 
+# #ülesanne 6
+# aeg = float(input("Mitu tundi kulus sõiduks? "))
+# teepikkus = float(input("Mitu kilomeetrit sõitsid? "))
+# kiirus = teepikkus/aeg
+# print("Sinu kiirus oli " + str(kiirus) + " km/h")
+
+# # #ülesanne 7
+# print(input("Введите 5 целых чисел"))
+# arv1 = int(input())
+# arv2 = int(input())
+# arv3 = int(input())
+# arv4 = int(input())
+# arv5 = int(input())
+# summa = arv1 + arv2 + arv3 + arv4 + arv5
+# print("Summa on", summa)
+# keskmine = summa/5
+# print("Keskime on", keskmine)
+
+# #ülesanne 8
+# frog = """
+#    @..@
+#   (----)
+#  ( \__/ )
+#  ^^ "" ^^
+# """
+# print(frog)
+
+# #ülesanne 9
+# a = int(input("Первая сторона равна: "))
+# b = int(input("Вторая сторона равна: "))
+# c = int(input("Третья сторона равна: "))
+# p = a + b + c
+# print("Периметр равен:", p)
+
+# #ülesanne 10
+# pitsa = 12.90
+# print("Pitsa on ",pitsa)
+# jootraha = 0.10 * pitsa
+# print("Jootraha on ",jootraha)
+# summa_kokku = pitsa + jootraha
+# print("Summa kokku on",round(summa_kokku,2))
+# summa = summa_kokku/2
+# print("kui palju peab igaüks maksma: ",round(summa,2))
 
 
