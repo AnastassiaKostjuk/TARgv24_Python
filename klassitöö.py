@@ -44,11 +44,21 @@ from math import *
 #     print("On vaja number!")
 
 #2 variant
-r = int(random()*100) #0.0...1.0
-print(f"r = {r}")
-Sk = pi*r**2 #площадь круга
-Lk = 2*pi*r
-Skv = (2*r)**2
-Lkv = 2*r*4
-print(f"Ringi pindala on {Sk}\nRingi umbermoot on {Lk}\nRuudu pindala on {Skv}\nRuudu umbermoot on {Lkv}")
+# r = int(random()*100) #0.0...1.0
+# print(f"r = {r}")
+# Sk = pi*r**2 #площадь круга
+# Lk = 2*pi*r
+# Skv = (2*r)**2
+# Lkv = 2*r*4
+# print(f"Ringi pindala on {Sk}\nRingi umbermoot on {Lk}\nRuudu pindala on {Skv}\nRuudu umbermoot on {Lkv}")
+
+#ülesanne 4
+D = 2.575 #mundi d
+maa = 6378 #maa radius km
+maa *= 100000 #maa raduis cm + maa=maa*100000
+Lmaa = 2*pi*maa
+kogus = int(Lmaa/D)
+print(f"On vaja {kogus} mundi.\nMeil on vaja {kogus*2} eur")
+
+#ülesanne 5
 
