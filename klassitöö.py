@@ -53,12 +53,16 @@ from math import *
 # print(f"Ringi pindala on {Sk}\nRingi umbermoot on {Lk}\nRuudu pindala on {Skv}\nRuudu umbermoot on {Lkv}")
 
 #ülesanne 4
-D = 2.575 #mundi d
-maa = 6378 #maa radius km
-maa *= 100000 #maa raduis cm + maa=maa*100000
-Lmaa = 2*pi*maa
-kogus = int(Lmaa/D)
-print(f"On vaja {kogus} mundi.\nMeil on vaja {kogus*2} eur")
+# D = 2.575 #mundi d
+# maa = 6378 #maa radius km
+# maa *= 100000 #maa raduis cm + maa=maa*100000
+# Lmaa = 2*pi*maa
+# kogus = int(Lmaa/D)
+# print(f"On vaja {kogus} mundi.\nMeil on vaja {kogus*2} eur")
 
 #ülesanne 5
+# a = "kill-koll ".capitalize()
+# b = "killadi-koll ".capitalize()
+# print(a*2, b, a*2, b, a*4)
 
+#ülesanne 6
