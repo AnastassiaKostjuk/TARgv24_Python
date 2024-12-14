@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f02bc0ac-e2d2-4de0-ad22-731612bdc681</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>vigade.otsing.py</StartupFile>
+    <StartupFile>Valiklaused.Kodutöö.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -23,6 +23,8 @@
   <ItemGroup>
     <Content Include="klassitöö.py" />
     <Compile Include="TARgv24_Python.py" />
+    <None Include="for.while.true.py" />
+    <Compile Include="Valiklaused.Kodutöö.py" />
     <Compile Include="vigade.otsing.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
