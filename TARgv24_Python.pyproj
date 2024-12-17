@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f02bc0ac-e2d2-4de0-ad22-731612bdc681</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Valiklaused.Kodutöö.py</StartupFile>
+    <StartupFile>Matemaatika.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="klassitöö.py" />
+    <Compile Include="Matemaatika.py" />
     <Compile Include="TARgv24_Python.py" />
     <None Include="for.while.true.py" />
     <Compile Include="Valiklaused.Kodutöö.py" />
