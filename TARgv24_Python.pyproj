@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f02bc0ac-e2d2-4de0-ad22-731612bdc681</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>listid.klassitoo.py</StartupFile>
+    <StartupFile>listid.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,7 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="klassitöö.py" />
-    <Compile Include="listid.klassitoo.py" />
+    <Compile Include="listid.py" />
     <Compile Include="Matemaatika.py" />
     <Compile Include="plokkskeem.py" />
     <Compile Include="TARgv24_Python.py" />
