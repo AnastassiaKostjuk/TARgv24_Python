@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f02bc0ac-e2d2-4de0-ad22-731612bdc681</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>isikukood.py</StartupFile>
+    <StartupFile>tund7.Def.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -28,6 +28,8 @@
     <Compile Include="plokkskeem.py" />
     <Compile Include="TARgv24_Python.py" />
     <None Include="for.while.true.py" />
+    <Compile Include="tund7.Def.py" />
+    <Compile Include="tund7Module.py" />
     <Compile Include="Valiklaused.Kodutöö.py" />
     <Compile Include="Vigade.otsing.2.Sirakus.py" />
     <Compile Include="vigade.otsing.py" />

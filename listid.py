@@ -1,7 +1,7 @@
 import string
 
 #ulesanne1
-vokaali=["a","e","u","o","i","ü","ö","õ","ä"]
+vokaali=["a","e","u","o","i","ï¿½","ï¿½","ï¿½","ï¿½"]
 konsonanti="qwrtyplkjhgfdszxcvbnm"
 markid=string.punctuation # %&'()*+,-./:;<=>?@[]\^_`{|}~
 
@@ -90,7 +90,7 @@ print()
 
 #ulesanne 4
 
-indexid=["Tallinn","Narva, Narva-Jõesuu","Kohtla-Järve","Ida-Virumaa, Lääne-Virumaa, Jõgevamaa","Tartu linn","Tartumaa, Põlvamaa, Võrumaa, Valgamaa","Viljandimaa, Järvamaa, Harjumaa, Raplamaa","Pärnumaa","Läänemaa, Hiiumaa, Saaremaa"]
+indexid=["Tallinn","Narva, Narva-Jï¿½esuu","Kohtla-Jï¿½rve","Ida-Virumaa, Lï¿½ï¿½ne-Virumaa, Jï¿½gevamaa","Tartu linn","Tartumaa, Pï¿½lvamaa, Vï¿½rumaa, Valgamaa","Viljandimaa, Jï¿½rvamaa, Harjumaa, Raplamaa","Pï¿½rnumaa","Lï¿½ï¿½nemaa, Hiiumaa, Saaremaa"]
 
 while 1:
     try:
