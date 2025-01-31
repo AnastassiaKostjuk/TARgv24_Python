@@ -58,13 +58,20 @@
 #     return a
 
 #ulesanne6
-def is_prime(a=randint(0,1000))->bool:
-    print(a)
-    v=True
-    for i in range(2,a):
-        if a%i==0:
-            v=False
-    return v
+# def is_prime(a=randint(0,1000))->bool:
+#     print(a)
+#     v=True
+#     for i in range(2,a):
+#         if a%i==0:
+#             v=False
+#     return v
+
+#ulesanne7
+def date(day:int,month:int,year:int)->bool:
+    if day in range(1,31) and month in [1,3,5,7,8,10,12]:
+        v=True
+    elif day in range(1,29) and month==2 and is_year
+
 
 #ulesanne 8
 # def XOR_cipher(text:str, voti:int)->str:
