@@ -22,6 +22,7 @@
   </PropertyGroup>
   <ItemGroup>
     <Content Include="klassitöö.py" />
+    <Compile Include="Def.Isikukood.py" />
     <Compile Include="isikukood.py" />
     <Compile Include="kodutoo.Sõne ja järjesti funktsioonid.py" />
     <Compile Include="listid.py" />
