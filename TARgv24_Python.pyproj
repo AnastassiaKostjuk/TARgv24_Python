@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f02bc0ac-e2d2-4de0-ad22-731612bdc681</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>kodutoo.Sõne ja järjesti funktsioonid.py</StartupFile>
+    <StartupFile>registreerimine.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,14 +21,19 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="kasutajad.txt" />
     <Content Include="klassitöö.py" />
     <Compile Include="Def.Isikukood.py" />
+    <Compile Include="funktsioonid.py" />
     <Compile Include="isikukood.py" />
+    <Compile Include="KasutajadSalasonad.py" />
     <Compile Include="kodutoo.Sõne ja järjesti funktsioonid.py" />
     <Compile Include="listid.py" />
     <Compile Include="Matemaatika.py" />
     <Compile Include="plokkskeem.py" />
+    <Compile Include="registreerimine.py" />
     <Compile Include="TARgv24_Python.py" />
+    <Content Include="salasona.txt" />
     <None Include="for.while.true.py" />
     <Compile Include="tund7.Def.py" />
     <Compile Include="tund7Module.py" />
