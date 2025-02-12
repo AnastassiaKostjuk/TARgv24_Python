@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f02bc0ac-e2d2-4de0-ad22-731612bdc681</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>registreerimine.py</StartupFile>
+    <StartupFile>EuroopaRiigid\EuroopaRiigid.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -24,6 +24,7 @@
     <Content Include="kasutajad.txt" />
     <Content Include="klassitöö.py" />
     <Compile Include="Def.Isikukood.py" />
+    <Compile Include="EuroopaRiigid\EuroopaRiigid.py" />
     <Compile Include="funktsioonid.py" />
     <Compile Include="isikukood.py" />
     <Compile Include="KasutajadSalasonad.py" />
@@ -33,6 +34,7 @@
     <Compile Include="plokkskeem.py" />
     <Compile Include="registreerimine.py" />
     <Compile Include="TARgv24_Python.py" />
+    <Content Include="EuroopaRiigid\riigid_pealinnad.txt" />
     <Content Include="salasona.txt" />
     <None Include="for.while.true.py" />
     <Compile Include="tund7.Def.py" />
@@ -40,6 +42,9 @@
     <Compile Include="Valiklaused.Kodutöö.py" />
     <Compile Include="Vigade.otsing.2.Sirakus.py" />
     <Compile Include="vigade.otsing.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="EuroopaRiigid\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
