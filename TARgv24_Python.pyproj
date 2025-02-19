@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f02bc0ac-e2d2-4de0-ad22-731612bdc681</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>EuroopaRiigid\EuroopaRiigid.py</StartupFile>
+    <StartupFile>matplotlib.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -31,6 +31,7 @@
     <Compile Include="kodutoo.Sõne ja järjesti funktsioonid.py" />
     <Compile Include="listid.py" />
     <Compile Include="Matemaatika.py" />
+    <Compile Include="matplotlib.py" />
     <Compile Include="plokkskeem.py" />
     <Compile Include="registreerimine.py" />
     <Compile Include="TARgv24_Python.py" />
