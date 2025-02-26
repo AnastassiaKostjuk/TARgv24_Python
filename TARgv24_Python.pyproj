@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f02bc0ac-e2d2-4de0-ad22-731612bdc681</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>vaal,vihmavari,kilpkonn,liblikas\klassitoo.py</StartupFile>
+    <StartupFile>jsonklassitoo.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -29,18 +29,20 @@
     <Compile Include="EuroopaRiigid\EuroopaRiigid.py" />
     <Compile Include="funktsioonid.py" />
     <Compile Include="isikukood\isikukood.py" />
+    <Compile Include="jsonklassitoo.py" />
     <Compile Include="KasutajadSalasonad.py" />
     <Compile Include="kodutoo.Sõne ja järjesti funktsioonid.py" />
     <Compile Include="listid.py" />
     <Compile Include="Matemaatika.py" />
-    <Compile Include="vaal,vihmavari,kilpkonn,liblikas\klassitoo.py" />
-    <Compile Include="vaal,vihmavari,kilpkonn,liblikas\Kodutöö.Решение квадратного уравнения.py" />
+    <Compile Include="vaal,vihmavari,kilpkonn,liblikas\iseseisevtoo.py" />
+    <Compile Include="vaal,vihmavari,kilpkonn,liblikas\kodutoo.py" />
     <Compile Include="vaal,vihmavari,kilpkonn,liblikas\matplotlibb.py" />
     <Compile Include="plokkskeem.py" />
     <Compile Include="Aut_Reg\MyModule.py" />
     <Compile Include="TARgv24_Python.py" />
     <Content Include="EuroopaRiigid\riigid_pealinnad.txt" />
     <Content Include="Aut_Reg\salasona.txt" />
+    <Content Include="vaal,vihmavari,kilpkonn,liblikas\Math-Background.jpg" />
     <None Include="for.while.true.py" />
     <Compile Include="vaal,vihmavari,kilpkonn,liblikas\tkinterKlassitoo.py" />
     <Compile Include="tund7\tund7.Def.py" />
