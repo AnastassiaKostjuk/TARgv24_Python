@@ -2,7 +2,8 @@
 from time import sleep
 from os import path, remove, system
 from tkinter import simpledialog as sd
-from gtts import *
+from gtts import gTTS
+import random
 
 def registreerimine(kasutajad:list,paroolid:list)->any:
     """Kirjeldus

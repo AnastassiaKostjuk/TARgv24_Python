@@ -4,13 +4,14 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f02bc0ac-e2d2-4de0-ad22-731612bdc681</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>matplotlib.py</StartupFile>
+    <StartupFile>vaal,vihmavari,kilpkonn,liblikas\klassitoo.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
     <Name>TARgv24_Python</Name>
     <RootNamespace>TARgv24_Python</RootNamespace>
+    <InterpreterId>Global|PythonCore|3.13</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,31 +22,44 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Content Include="kasutajad.txt" />
+    <Content Include="Aut_Reg\kasutajad.txt" />
     <Content Include="klassitöö.py" />
-    <Compile Include="Def.Isikukood.py" />
+    <Compile Include="Aut_Reg\Registreerimine_Autoriseerimine.py" />
+    <Compile Include="isikukood\Def.Isikukood.py" />
     <Compile Include="EuroopaRiigid\EuroopaRiigid.py" />
     <Compile Include="funktsioonid.py" />
-    <Compile Include="isikukood.py" />
+    <Compile Include="isikukood\isikukood.py" />
     <Compile Include="KasutajadSalasonad.py" />
     <Compile Include="kodutoo.Sõne ja järjesti funktsioonid.py" />
     <Compile Include="listid.py" />
     <Compile Include="Matemaatika.py" />
-    <Compile Include="matplotlib.py" />
+    <Compile Include="vaal,vihmavari,kilpkonn,liblikas\klassitoo.py" />
+    <Compile Include="vaal,vihmavari,kilpkonn,liblikas\Kodutöö.Решение квадратного уравнения.py" />
+    <Compile Include="vaal,vihmavari,kilpkonn,liblikas\matplotlibb.py" />
     <Compile Include="plokkskeem.py" />
-    <Compile Include="registreerimine.py" />
+    <Compile Include="Aut_Reg\MyModule.py" />
     <Compile Include="TARgv24_Python.py" />
     <Content Include="EuroopaRiigid\riigid_pealinnad.txt" />
-    <Content Include="salasona.txt" />
+    <Content Include="Aut_Reg\salasona.txt" />
     <None Include="for.while.true.py" />
-    <Compile Include="tund7.Def.py" />
-    <Compile Include="tund7Module.py" />
+    <Compile Include="vaal,vihmavari,kilpkonn,liblikas\tkinterKlassitoo.py" />
+    <Compile Include="tund7\tund7.Def.py" />
+    <Compile Include="tund7\tund7Module.py" />
     <Compile Include="Valiklaused.Kodutöö.py" />
-    <Compile Include="Vigade.otsing.2.Sirakus.py" />
-    <Compile Include="vigade.otsing.py" />
+    <Compile Include="vigade_otsing\Vigade.otsing.2.Sirakus.py" />
+    <Compile Include="vigade_otsing\vigade.otsing.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="EuroopaRiigid\" />
+    <Folder Include="isikukood\" />
+    <Folder Include="Aut_Reg\" />
+    <Folder Include="tund7\" />
+    <Folder Include="vaal,vihmavari,kilpkonn,liblikas\" />
+    <Folder Include="vigade_otsing\" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.13" />
+    <InterpreterReference Include="Global|PythonCore|3.9" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
