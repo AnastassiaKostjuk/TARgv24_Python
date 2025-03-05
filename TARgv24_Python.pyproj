@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f02bc0ac-e2d2-4de0-ad22-731612bdc681</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>EuroopaRiigid\EuroopaRiigid.py</StartupFile>
+    <StartupFile>Numeroloogia_Nimearv\Nime_arv.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,8 +26,9 @@
     <Content Include="EuroopaRiigid\riigid_pealinnad.txt" />
     <Content Include="klassitöö.py" />
     <Compile Include="Aut_Reg\Registreerimine_Autoriseerimine.py" />
+    <Compile Include="EuroopaRiigid\EURiigid.py" />
     <Compile Include="isikukood\Def.Isikukood.py" />
-    <Compile Include="EuroopaRiigid\EuroopaRiigid.py" />
+    <Compile Include="EuroopaRiigid\Riigid.py" />
     <Compile Include="funktsioonid.py" />
     <Compile Include="isikukood\isikukood.py" />
     <Compile Include="jsonklassitoo.py" />
@@ -35,6 +36,7 @@
     <Compile Include="kodutoo.Sõne ja järjesti funktsioonid.py" />
     <Compile Include="listid.py" />
     <Compile Include="Matemaatika.py" />
+    <Compile Include="Numeroloogia_Nimearv\Nime_arv.py" />
     <Compile Include="vaal,vihmavari,kilpkonn,liblikas\iseseisevtoo.py" />
     <Compile Include="vaal,vihmavari,kilpkonn,liblikas\kodutoo.py" />
     <Compile Include="vaal,vihmavari,kilpkonn,liblikas\matplotlibb.py" />
@@ -42,6 +44,9 @@
     <Compile Include="Aut_Reg\MyModule.py" />
     <Compile Include="TARgv24_Python.py" />
     <Content Include="Aut_Reg\salasona.txt" />
+    <Content Include="Numeroloogia_Nimearv\246.jpg" />
+    <Content Include="Numeroloogia_Nimearv\3037513.jpg" />
+    <Content Include="Numeroloogia_Nimearv\numbrid.txt" />
     <Content Include="vaal,vihmavari,kilpkonn,liblikas\Math-Background.jpg" />
     <None Include="for.while.true.py" />
     <Compile Include="vaal,vihmavari,kilpkonn,liblikas\tkinterKlassitoo.py" />
@@ -55,6 +60,7 @@
     <Folder Include="EuroopaRiigid\" />
     <Folder Include="isikukood\" />
     <Folder Include="Aut_Reg\" />
+    <Folder Include="Numeroloogia_Nimearv\" />
     <Folder Include="tund7\" />
     <Folder Include="vaal,vihmavari,kilpkonn,liblikas\" />
     <Folder Include="vigade_otsing\" />
