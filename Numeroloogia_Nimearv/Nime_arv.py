@@ -145,4 +145,4 @@ result_label = tk.Label(frame, text="Число вашего имени: ", bg="
 result_label.place(relx=0.5, rely=0.7, anchor="center")
 
 # Запуск основного цикла
-root.mainloop()
+root.mainloop() 
