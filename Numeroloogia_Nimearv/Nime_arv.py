@@ -1,6 +1,6 @@
 ﻿import tkinter as tk
 from tkinter import messagebox
-from tkinter import Toplevel
+from tkinter import Toplevel, scrolledtext  # Добавляем scrolledtext для прокрутки
 from PIL import Image, ImageTk  # Библиотека для работы с изображениями
 
 # Словарь для русского алфавита
@@ -39,29 +39,35 @@ def calculate_name_number(name, alphabet):
 def show_meaning(number):
     # Открытие нового окна
     new_window = Toplevel(root)
-    new_window.geometry("400x200")
+    new_window.geometry("600x400")  # Увеличиваем размер окна
     new_window.title(f"Значение числа {number}")
 
     # Попытка прочитать значение из текстового файла
     try:
-        with open("Numeroloogia_Nimearv/numbrid.txt", "r", encoding="utf-8") as file:
+        with open('Numeroloogia_Nimearv/numbrid.txt', 'r', encoding="utf-8") as file:
             meanings = file.readlines()
         
         # Ищем описание для числа
+        description = "Описание не найдено."
         for line in meanings:
-            num, meaning = line.split(":", 1)
-            if int(num) == number:
-                description = meaning.strip()
-                break
-        else:
-            description = "Описание не найдено."
+            try:
+                num, meaning = line.split(":", 1)
+                if int(num) == number:
+                    description = meaning.strip()
+                    break
+            except ValueError:
+                continue  # Пропускаем строки, которые не удалось разобрать
 
-        # Отображаем описание
-        label = tk.Label(new_window, text=description, font=("Arial", 12), wraplength=350, justify="center")
-        label.pack(padx=20, pady=20)
+        # Создаем текстовое поле с прокруткой
+        text_area = scrolledtext.ScrolledText(new_window, wrap=tk.WORD, width=70, height=20, font=("Arial", 12))
+        text_area.insert(tk.INSERT, description)  # Вставляем текст
+        text_area.configure(state='disabled')  # Запрещаем редактирование
+        text_area.pack(padx=10, pady=10)
 
     except FileNotFoundError:
         messagebox.showerror("Ошибка", "Файл с описаниями не найден!")
+    except Exception as e:
+        messagebox.showerror("Ошибка", f"Произошла ошибка: {e}")
 
 # Функция для обработки нажатия кнопки
 def calculate():
@@ -121,7 +127,7 @@ else:
 
 # Создание Frame поверх Canvas для ввода данных
 frame = tk.Frame(root, bg="white", bd=2)  # Устанавливаем белый фон для Frame
-frame.place(relx=0.5, rely=0.5, anchor="center", relwidth=0.8, relheight=0.6)
+frame.place(relx=0.5, rely=0.5, anchor="center", relwidth=0.5, relheight=0.6)
 
 # Поле для ввода имени
 label = tk.Label(frame, text="Введите ваше имя:", bg="white", fg="maroon", font=("Arial", 14))

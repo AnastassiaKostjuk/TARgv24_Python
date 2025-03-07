@@ -44,9 +44,9 @@
     <Compile Include="Aut_Reg\MyModule.py" />
     <Compile Include="TARgv24_Python.py" />
     <Content Include="Aut_Reg\salasona.txt" />
+    <Content Include="Numeroloogia_Nimearv\numbrid.txt" />
     <Content Include="Numeroloogia_Nimearv\246.jpg" />
     <Content Include="Numeroloogia_Nimearv\3037513.jpg" />
-    <Content Include="Numeroloogia_Nimearv\numbrid.txt" />
     <Content Include="vaal,vihmavari,kilpkonn,liblikas\Math-Background.jpg" />
     <None Include="for.while.true.py" />
     <Compile Include="vaal,vihmavari,kilpkonn,liblikas\tkinterKlassitoo.py" />
