@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>f02bc0ac-e2d2-4de0-ad22-731612bdc681</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>EuroopaRiigid\EURiigid.py</StartupFile>
+    <StartupFile>EuroopaRiigid\Riigid.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -26,7 +26,6 @@
     <Content Include="EuroopaRiigid\riigid_pealinnad.txt" />
     <Content Include="klassitöö.py" />
     <Compile Include="Aut_Reg\Registreerimine_Autoriseerimine.py" />
-    <Compile Include="EuroopaRiigid\EURiigid.py" />
     <Compile Include="isikukood\Def.Isikukood.py" />
     <Compile Include="EuroopaRiigid\Riigid.py" />
     <Compile Include="funktsioonid.py" />
