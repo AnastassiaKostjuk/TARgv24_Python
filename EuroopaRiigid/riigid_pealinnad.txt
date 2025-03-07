@@ -47,5 +47,6 @@ Ukraina-Kiiev
 Ungari-Budapest
 Valgevene-Minsk
 Vatikan-Vatican
-Venemaa-MoskvaGreece-Athens
+Venemaa-Moskva
 Greece-Athens
+Morocco-Rabat
